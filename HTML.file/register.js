@@ -1,9 +1,12 @@
 
-var checkList = document.getElementsByClassName("fa-solid fa-xmark");
+/**
+ * delete Element 
+ */
+ var checkList = document.getElementsByClassName("fa-solid fa-xmark");
 for(var i=0;i<checkList.length;i++){
     checkList[i].addEventListener("click",function() {
         var node = this.parentElement.parentElement;
-        node.style.display = "none";
+        node.remove();
     })
 }
 /**
@@ -91,7 +94,7 @@ function newElement() {
 
         deleteIcon.addEventListener("click", function () {
             var node = this.parentElement.parentElement;
-            node.style.display = "none";
+            node.remove();
         })
 
         addDiv.addEventListener("click", function () {
