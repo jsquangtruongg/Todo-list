@@ -1,0 +1,130 @@
+.form {
+    background-color: red;
+    padding: 50px 50px;
+    height: 100px;
+    text-align: center;
+}
+
+
+.title {
+    font-size: 25px;
+}
+
+
+.form_seach {
+    margin-left: 50px;
+}
+
+.input {
+    float: left;
+    margin: 0;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    width: 75%;
+}
+
+.addBtn {
+    margin: auto;
+    cursor: pointer;
+    background: aqua;
+    width: 15%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.addBtn:hover {
+    background-color: #307881;
+}
+
+.form_table {
+    padding: 0;
+
+    display: block;
+}
+
+ul li {
+    list-style: none;
+    font-size: 16px;
+    padding: 20px;
+    color: red;
+    background: #eee;
+    cursor: pointer;
+}
+
+ul li:nth-child(odd) {
+    background: #c9c1c1;
+}
+
+
+
+ul li:hover {
+    background-color: #dba5a5;
+}
+
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+
+
+.close {
+    position: absolute;
+    margin-top: -4px;
+    font-size: 30px;
+    right: 33px;
+    align-items: center;
+    
+}
+
+
+.check{
+    position: absolute;
+   
+    font-size: 17px;
+    right: 117px;
+    align-items: center;
+    
+}
+ul li.checked::before {
+    content: '';
+    position: absolute; 
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+    left: 15px;
+}
+
+.mid{
+    padding: 0px 20px;
+    background-color: green;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    cursor: pointer ;
+    margin-top: 30px;
+}
+ .mid:nth-child(odd)   {
+   background: #307881;
+}
+ .mid:hover {
+    background-color: blue;
+}
+.add{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}
+
+.checke {
+    text-decoration: line-through;
+}
